@@ -17,9 +17,9 @@ struct RecipeCategoryCellView: View {
             // Image
             AsyncImage(url: recipeCategory.imageUrl) { image in
                     image.resizable()
-                    .aspectRatio(contentMode: .fit)
+//                    .aspectRatio(contentMode: .fit)
                     .frame(width: 100, height: 100)
-                    .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                    .clipShape(RoundedRectangle(cornerRadius: 10.0, style: .continuous))
             } placeholder: {
                 ProgressView()
             }
@@ -29,4 +29,5 @@ struct RecipeCategoryCellView: View {
         }
     }
 }
+
 

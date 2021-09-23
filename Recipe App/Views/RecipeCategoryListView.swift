@@ -13,7 +13,11 @@ struct RecipeCategoryListView: View {
     
     var body: some View {
         List(categories) { category in
-            RecipeCategoryCellView(recipeCategory: category)
+            
+            NavigationLink(destination: RecipeListScreen(reciperCategory: category).navigationTitle(category.title)) {
+                RecipeCategoryCellView(recipeCategory: category)
+            }
+
         }
         .listStyle(.plain)
     }
