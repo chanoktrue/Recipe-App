@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD2E3F1C26FED6AC00174BA2 /* RecipeDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E3F1B26FED6AC00174BA2 /* RecipeDetailResponse.swift */; };
+		CD2E3F1E27000C5400174BA2 /* RecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E3F1D27000C5400174BA2 /* RecipeDetailViewModel.swift */; };
+		CD2E3F202700A25000174BA2 /* RecipeDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E3F1F2700A25000174BA2 /* RecipeDetailScreen.swift */; };
 		CD4A0A0526FA8BA700A7B7BD /* Recipe_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A0A0426FA8BA700A7B7BD /* Recipe_AppApp.swift */; };
 		CD4A0A0726FA8BA700A7B7BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A0A0626FA8BA700A7B7BD /* ContentView.swift */; };
 		CD4A0A0926FA8BAA00A7B7BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4A0A0826FA8BAA00A7B7BD /* Assets.xcassets */; };
@@ -26,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD2E3F1B26FED6AC00174BA2 /* RecipeDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailResponse.swift; sourceTree = "<group>"; };
+		CD2E3F1D27000C5400174BA2 /* RecipeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewModel.swift; sourceTree = "<group>"; };
+		CD2E3F1F2700A25000174BA2 /* RecipeDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailScreen.swift; sourceTree = "<group>"; };
 		CD4A0A0126FA8BA700A7B7BD /* Recipe App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4A0A0426FA8BA700A7B7BD /* Recipe_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_AppApp.swift; sourceTree = "<group>"; };
 		CD4A0A0626FA8BA700A7B7BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +116,7 @@
 			children = (
 				CD4A0A1626FA937D00A7B7BD /* RecipeCategoryResponse.swift */,
 				CD60B99C26FD32DE0055C3A6 /* Recipe.swift */,
+				CD2E3F1B26FED6AC00174BA2 /* RecipeDetailResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			children = (
 				CD4A0A1926FA943C00A7B7BD /* RecipeCategoryListViewModel.swift */,
 				CD60B99A26FD32360055C3A6 /* RecipeListViewModel.swift */,
+				CD2E3F1D27000C5400174BA2 /* RecipeDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -136,6 +144,7 @@
 			children = (
 				CD4A0A1F26FA97DB00A7B7BD /* RecipeCategoryListScreen.swift */,
 				CD60B99826FD2E8F0055C3A6 /* RecipeListScreen.swift */,
+				CD2E3F1F2700A25000174BA2 /* RecipeDetailScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -224,6 +233,8 @@
 				CD60B99B26FD32360055C3A6 /* RecipeListViewModel.swift in Sources */,
 				CD4A0A2026FA97DB00A7B7BD /* RecipeCategoryListScreen.swift in Sources */,
 				CD4A0A1A26FA943C00A7B7BD /* RecipeCategoryListViewModel.swift in Sources */,
+				CD2E3F202700A25000174BA2 /* RecipeDetailScreen.swift in Sources */,
+				CD2E3F1C26FED6AC00174BA2 /* RecipeDetailResponse.swift in Sources */,
 				CD60B99D26FD32DE0055C3A6 /* Recipe.swift in Sources */,
 				CD4A0A1726FA937D00A7B7BD /* RecipeCategoryResponse.swift in Sources */,
 				CD4A0A1426FA8CF800A7B7BD /* WebService.swift in Sources */,
@@ -233,6 +244,7 @@
 				CD4A0A0526FA8BA700A7B7BD /* Recipe_AppApp.swift in Sources */,
 				CD60B9A326FD3B000055C3A6 /* RecipeCellView.swift in Sources */,
 				CD4A0A1D26FA94C700A7B7BD /* Constants.swift in Sources */,
+				CD2E3F1E27000C5400174BA2 /* RecipeDetailViewModel.swift in Sources */,
 				CD60B9A126FD38A30055C3A6 /* RecipeListView.swift in Sources */,
 				CD4A0A2526FA996300A7B7BD /* RecipeCategoryCellView.swift in Sources */,
 			);
